@@ -120,11 +120,4 @@ for data in [bbas3, bbdc4, itub4, sanb11]:
     print("POCID:", pocid(Ay, Py))
     print("ARV:", arv(Ay, Py))
     print("Fitness:", bestModel.getFitness(testData))
-
-""" # Plot results
-xaxis = range(1, testData.size - 10 + 1)
-plt.plot(xaxis, Ay)
-plt.plot(xaxis, Py)
-plt.annotate('Fit = {:.6f}'.format(fitness(Ay, Py)), xy=(0.914, 0.9), xycoords='axes fraction')
-plt.legend(["Actual values", "Predicted values"])
-plt.show() """
+    
