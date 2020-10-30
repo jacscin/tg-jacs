@@ -18,11 +18,7 @@ itub4 = np.loadtxt('ITUB4_COTAHIST_A2010-2019.txt')
 sanb11 = np.loadtxt('SANB11_COTAHIST_A2010-2019.txt')
 
 # Run algorithm for every dataset
-#for data in [bbas3, bbdc4, itub4, sanb11]:
-#for data in [bbas3]:
-#for data in [bbdc4]:
-#for data in [itub4]:
-#for data in [sanb11]:
+for data in [bbas3, bbdc4, itub4, sanb11]:
     # Show the dataset tested now
     if (data == bbas3).all():
         print("BBAS3")
