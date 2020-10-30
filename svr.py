@@ -112,11 +112,3 @@ for data in [bbas3, bbdc4, itub4, sanb11]:
 
     print("--- %s seconds ---" % (time.time() - start_time))
     print(bestLag)
-
-""" # Plot results
-xaxis = range(1, data.size - lag - divPoint + 1)
-plt.plot(xaxis, Yt)
-plt.plot(xaxis, Yp)
-plt.annotate('MSE = {:.6f}'.format(np.mean((Yt - Yp) ** 2)), xy=(0.914, 0.9), xycoords='axes fraction')
-plt.legend(["Actual values", "Predicted values"])
-plt.show() """
